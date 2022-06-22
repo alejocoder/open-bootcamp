@@ -7,7 +7,7 @@ public class main {
         // parte 2
         coche miCoche = new coche();
         miCoche.SumarPuerta();
-        System.out.println(miCoche.puertas);
+        System.out.println("El numero de puertas es" + miCoche.puertas);
 
     }
     public  static int suma (int a, int b, int c){
