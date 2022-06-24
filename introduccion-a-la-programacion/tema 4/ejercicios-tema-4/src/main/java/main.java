@@ -38,12 +38,16 @@ public class main {
         switch (estación){
             case "primavera":
                 System.out.println("es primavera");
+                break;
             case "verano":
                 System.out.println("es verano");
+                break;
             case "otoño":
                 System.out.println("es otoño");
+                break;
             case "invierno":
                 System.out.println("es invierno");
+                break;
         }
 
     }
