@@ -11,34 +11,34 @@ public class main {
         System.out.println(persona.getTelefono());
     }
 
-    public static class Persona{
+}
+    class Persona{
 
-        private int edad;
-        private String nombre;
-        private int telefono;
+    private int edad;
+    private String nombre;
+    private int telefono;
 
-        public void setEdad(int edad){
-            this.edad = edad;
-        }
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
 
-        public int getEdad(){
-            return this.edad;
-        }
+    public int getEdad(){
+        return this.edad;
+    }
 
-        public void setNombre(String nombre){
-            this.nombre = nombre;
-        }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
 
-        public String getNombre() {
-            return this.nombre;
-        }
+    public String getNombre() {
+        return this.nombre;
+    }
 
-        public void setTelefono(int telefono){
-            this.telefono = telefono;
-        }
+    public void setTelefono(int telefono){
+        this.telefono = telefono;
+    }
 
-        public int getTelefono(){
-            return this.telefono;
-        }
+    public int getTelefono(){
+        return this.telefono;
     }
 }
