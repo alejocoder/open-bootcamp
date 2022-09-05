@@ -1,0 +1,15 @@
+html{
+    display: flex;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria img{
+    width: 300px;
+}
