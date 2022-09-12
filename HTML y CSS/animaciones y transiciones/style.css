@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern:hover{
+    box-shadow: 5px 5px salmon;
+    background-color: black;
+    color: wheat;
+    animation: translateY(-5px) 0.4s;
+}
